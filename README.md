@@ -17,22 +17,22 @@ Npm v6.14.5
 ## Instalación 🔧
 
 ### 1. Server:
-
+```bash
 npm install
 
 npm start
-
+```
 
 
 
 ### 2. Client:
-
+```bash
 npm install
 
 npm install next
 
 npm run dev
-
+```
 
 
 ## Construido con 🛠️
