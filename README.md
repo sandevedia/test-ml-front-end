@@ -40,7 +40,8 @@ React - (Nextjs ssr por requerimientos en SEO)
 Api-rest en Express
 
 
-Autores ✒️
+# Autores ✒️
+
 Santiago Alarcón
 
 Muchas gracias. Saludos!
