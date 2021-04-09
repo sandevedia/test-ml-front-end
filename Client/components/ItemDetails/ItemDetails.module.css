@@ -1,0 +1,59 @@
+.figure_picture,
+.description {
+  width: 100%;
+  padding: 20px;
+}
+
+.figure_picture {
+  text-align: center;
+  cursor: pointer;
+}
+.img_picture {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.title {
+  flex: auto;
+  padding: 0 20% 0 0;
+  margin-bottom: 32px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.buy_btn {
+  margin-top: 32px;
+  background-color: #3483fa;
+  color: #fff;
+  border-color: transparent;
+  width: 100%;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+.buy_btn:hover {
+  background-color: #122f5a;
+}
+
+.prices {
+  font-size: 46px;
+}
+
+.description h3 {
+  font-size: 28px;
+  color: #666666;
+}
+.description p {
+  font-size: 16px;
+  color: #999999;
+}
+
+.resumeBox {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.Subtitle {
+  margin: 32px 0 16px 0;
+}

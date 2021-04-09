@@ -1,0 +1,19 @@
+.img_picture{
+    width: 100%;
+    margin: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.amount{
+    margin-top: 32px;
+    margin-bottom: 0;
+    font-size: 24;
+    display: inline-block;
+}
+
+.title{
+    font-size: 18;
+    margin-top: 32px;
+    cursor: pointer;
+}

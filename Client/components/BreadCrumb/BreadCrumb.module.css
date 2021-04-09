@@ -1,0 +1,18 @@
+.link,
+.icon {
+  float: left;
+  padding-right: 5px;
+}
+
+.ul {
+  padding: 0;
+  margin: 16px 0;
+}
+.li,
+.ul {
+  display: inline-block;
+  font-size: 14px;
+}
+.ul a {
+  color: #666666;
+}

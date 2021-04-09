@@ -1,0 +1,10 @@
+version: "3.2"
+services:
+  app:
+    container_name: api-test-ml-frontend
+    restart: always
+    image: api-test-ml-frontend:latest
+    ports:
+      - "3010:3010"
+  
+  

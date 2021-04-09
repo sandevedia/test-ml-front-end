@@ -1,0 +1,5 @@
+
+GET http://localhost:3010/api/items/MLA817640315 HTTP/1.1
+###
+GET http://localhost:3010/api/items?q=lampara HTTP/1.1
+###
