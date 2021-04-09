@@ -1,7 +1,7 @@
 Challenge para puesto de Front-end en Mercado Libre
 
 
-*Pre-requisitos 📋
+## Pre-requisitos 📋
 
 Node v14.5.0
 
@@ -9,9 +9,9 @@ Npm v6.14.5
 
 
 
-*Instalación 🔧
+## Instalación 🔧
 
-1. Server:
+### 1. Server:
 
 npm install
 
@@ -20,8 +20,7 @@ npm start
 
 
 
-
-2. Client:
+### 2. Client:
 
 npm install
 
@@ -31,16 +30,15 @@ npm run dev
 
 
 
-*Construido con 🛠️
+## Construido con 🛠️
 
-Client:
-
+### Client:
 React - (Nextjs ssr por requerimientos en SEO)
 
 
-Server
-
+### Server
 Api-rest en Express
+
 
 Autores ✒️
 Santiago Alarcón
