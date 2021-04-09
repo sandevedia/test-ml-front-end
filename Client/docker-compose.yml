@@ -1,0 +1,8 @@
+version: "3.6"
+services:
+  webadmin:
+    container_name: test-ml-frontend
+    restart: always
+    image: test-ml-frontend:latest
+    ports:
+      - "80:3000"

@@ -1,12 +1,22 @@
-FROM node:10-alpine
+# pull official base image
+FROM node:13.12.0-alpine
 
-WORKDIR /usr/src/app
+# set working directory
+WORKDIR /app
 
-COPY package*.json ./
+# add `/app/node_modules/.bin` to $PATH
+ENV PATH /app/node_modules/.bin:$PATH
 
-RUN npm install
+# install app dependencies
+COPY package.json ./
+COPY package-lock.json ./
 
-COPY . .
+RUN npm install --silent
+RUN npm run build
 
-EXPOSE 3010
-CMD [ "node", "server.js" ]
+# add app
+COPY . ./
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
