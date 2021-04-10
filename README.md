@@ -38,7 +38,7 @@ npm run dev
 ## Construido con 🛠️
 
 ### Client:
-React - (Nextjs ssr por requerimientos en SEO)
+React - Nextjs
 
 
 ### Server
